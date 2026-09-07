@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>中国智能机器人初创企业绩效指标关联地图</title>
+<style>
+:root{--ink:#132238;--muted:#607087;--line:#d8e1e8;--blue:#1769aa;--teal:#0b7f78;--amber:#b86908;--red:#a23a37;--paper:#f4f7f8;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}.wrap{max-width:1500px;margin:auto;padding:36px}.head{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;margin-bottom:24px}.eyebrow{font-size:13px;letter-spacing:.1em;color:var(--teal);font-weight:700}.title{font-size:32px;line-height:1.2;margin:8px 0}.sub{color:var(--muted);font-size:14px}.legend{display:flex;gap:10px;flex-wrap:wrap}.pill{border-radius:999px;padding:7px 11px;font-size:12px;font-weight:700;background:#fff;border:1px solid var(--line)}.r{color:var(--blue)}.p{color:var(--teal)}.g{color:var(--amber)}
+.map{display:grid;grid-template-columns:220px 1fr;gap:14px}.goal{background:var(--white);border-left:5px solid var(--blue);border-radius:12px;padding:18px;box-shadow:0 4px 16px rgba(22,45,66,.06);min-height:150px}.goal h2{font-size:17px;margin:0 0 8px}.goal p{font-size:12px;color:var(--muted);line-height:1.6;margin:0}.rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;position:relative}.card:before{content:"";position:absolute;left:-15px;top:50%;width:14px;border-top:1px solid #b8c5cf}.meta{display:flex;justify-content:space-between;gap:8px;margin-bottom:8px}.role{font-size:13px;font-weight:700}.type{font-size:11px;padding:3px 7px;border-radius:999px;background:#eef3f6}.card h3{font-size:16px;margin:0 0 6px}.card p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}.result{border-top:3px solid var(--blue)}.process{border-top:3px solid var(--teal)}.guard{border-top:3px solid var(--amber)}
+.conflict{margin-top:20px;background:#fff8ee;border:1px solid #ecd4ac;border-radius:12px;padding:18px}.conflict h2{font-size:16px;margin:0 0 9px;color:#7b4307}.conflict-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.conflict-grid div{font-size:12px;line-height:1.5;background:#fff;border-radius:8px;padding:10px;border:1px solid #f0ddbd}.foot{font-size:12px;color:var(--muted);margin-top:16px}
+@media(max-width:900px){.wrap{padding:20px}.head{display:block}.legend{margin-top:14px}.map{grid-template-columns:1fr}.rows{grid-template-columns:1fr}.card:before{display:none}.conflict-grid{grid-template-columns:1fr}.title{font-size:25px}}
+@media print{body{background:#fff}.wrap{max-width:none;padding:18px}.card,.goal{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body><main class="wrap">
+<header class="head"><div><div class="eyebrow">2026 匿名案例 · 探索期</div><h1 class="title">中国智能机器人初创企业<br>目标—岗位—指标关联地图</h1><div class="sub">5 个公司目标 · 8 类关键岗位 · 16 项核心指标</div></div><div class="legend"><span class="pill r">结果指标</span><span class="pill p">过程指标</span><span class="pill g">护栏指标</span></div></header>
+<section class="map">
+<div class="goal"><h2>G1 场景与产品市场匹配</h2><p>先证明目标场景能闭环验收，再扩大试点和资源投入。</p></div><div class="rows">
+<article class="card result"><div class="meta"><span class="role">创始人/总经理</span><span class="type">结果</span></div><h3>关键场景里程碑达成率</h3><p>用验收件统一战略、研发、销售与融资叙事。</p></article>
+<article class="card process"><div class="meta"><span class="role">产品负责人</span><span class="type">过程</span></div><h3>试点验收标准前置率</h3><p>立项前锁定问题、价值、数据与验收门禁。</p></article>
+<article class="card result"><div class="meta"><span class="role">产品负责人</span><span class="type">结果</span></div><h3>场景闭环验收率</h3><p>以客户或内部联合验收证明完整价值闭环。</p></article>
+<article class="card result"><div class="meta"><span class="role">交付与客户成功</span><span class="type">结果</span></div><h3>现场可用率</h3><p>反映客户计划服务时间内的实际可用价值。</p></article></div>
+<div class="goal"><h2>G2 产品可用与技术迭代</h2><p>以冻结测试集和数据闭环，把算法进步转换为可重复能力。</p></div><div class="rows">
+<article class="card result"><div class="meta"><span class="role">具身智能/算法</span><span class="type">结果</span></div><h3>关键任务成功率</h3><p>按版本、难度和环境分层衡量真实场景可用性。</p></article>
+<article class="card process"><div class="meta"><span class="role">具身智能/算法</span><span class="type">过程</span></div><h3>数据闭环周期</h3><p>缩短失败样本到训练与回归验证的反馈链路。</p></article></div>
+<div class="goal"><h2>G3 可制造与可交付</h2><p>把样机、试制、供应、可靠性与客户验收拉到同一条链路。</p></div><div class="rows">
+<article class="card process"><div class="meta"><span class="role">整机研发</span><span class="type">过程</span></div><h3>样机关键里程碑按期率</h3><p>保持机械、电气、算法、试制和客户窗口同步。</p></article>
+<article class="card guard"><div class="meta"><span class="role">整机研发</span><span class="type">护栏</span></div><h3>可靠性验证通过率</h3><p>试点前验证负载、寿命、环境和故障恢复。</p></article>
+<article class="card result"><div class="meta"><span class="role">试制与供应链</span><span class="type">结果</span></div><h3>一次合格率</h3><p>减少返工、延期和现金占用。</p></article>
+<article class="card process"><div class="meta"><span class="role">试制与供应链</span><span class="type">过程</span></div><h3>供应商准时交付率</h3><p>保障关键部组件按质量和时间要求到位。</p></article>
+<article class="card result"><div class="meta"><span class="role">交付与客户成功</span><span class="type">结果</span></div><h3>部署首次验收通过率</h3><p>衡量产品能力转化为现场交付结果的效率。</p></article></div>
+<div class="goal"><h2>G4 商业化与现金质量</h2><p>以高质量试点、付费转化和现金护栏验证商业可持续性。</p></div><div class="rows">
+<article class="card guard"><div class="meta"><span class="role">创始人/总经理</span><span class="type">护栏</span></div><h3>现金跑道月数</h3><p>约束招聘、采购和试点扩张的节奏。</p></article>
+<article class="card process"><div class="meta"><span class="role">商务/解决方案</span><span class="type">过程</span></div><h3>有效试点数</h3><p>只统计具备场景、责任人、预算路径与验收口径的试点。</p></article>
+<article class="card result"><div class="meta"><span class="role">商务/解决方案</span><span class="type">结果</span></div><h3>试点转付费合同率</h3><p>验证真实购买意愿，而非追求免费展示数量。</p></article></div>
+<div class="goal"><h2>G5 安全、质量与组织学习</h2><p>高风险未闭环不得发布；安全证据与产品迭代同步。</p></div><div class="rows">
+<article class="card process"><div class="meta"><span class="role">安全与质量</span><span class="type">过程</span></div><h3>高风险项按期闭环率</h3><p>把风险在发布、试制和部署前关闭。</p></article>
+<article class="card guard"><div class="meta"><span class="role">安全与质量</span><span class="type">护栏</span></div><h3>安全验证覆盖率</h3><p>覆盖正常使用与可预见误用的高风险场景。</p></article></div>
+</section>
+<section class="conflict"><h2>指标冲突与反刷量护栏</h2><div class="conflict-grid"><div><b>速度 vs 安全质量</b><br>高风险未闭环不得发布。</div><div><b>试点数量 vs 质量</b><br>不满足立项门禁不得计数。</div><div><b>降本 vs 可靠性</b><br>替代料必须完成等效验证。</div><div><b>成功率 vs 难度</b><br>冻结测试集，困难样本不得删除。</div><div><b>合同额 vs 现金质量</b><br>合同必须包含验收和回款条款。</div></div></section>
+<p class="foot">说明：本图与完整报告第 3 章逐项一致；目标数值为 E 级匿名案例假设，需由企业聚合基线校准。</p>
+</main></body></html>
